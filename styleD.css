@@ -30,6 +30,7 @@ h1{
 	color: #CEB076;
 }
 
+
 .text p{
 	font-family: Source;
 	font-weight: 400;
@@ -78,16 +79,15 @@ h1{
 .text span{
 	color: #CEB076;
 }
-.container .hidden {
-	display: block;
+
+
+.hidden{
+	display: none;
 }
 
 
-
 @media screen and (max-width: 576px){
-	.hidden p{
-		
-	}
+	
 
 	.container{
 		height: auto;
@@ -147,7 +147,7 @@ h1{
 		text-align: center;
 	}
 
-	.hidden p{
+	.hidden{
 		font-size: 15px;
 		align-items: center;
         text-align: center;
@@ -157,12 +157,6 @@ h1{
 		top: 8px;	
 		display: block;	
 
-	}
-}
-
-@media (min-width:576px){
-	.hidden p{
-		display:block;
 	}
 }
 
